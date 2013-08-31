@@ -3,8 +3,97 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3e5040446b05786a70b98ca3d6d40ce4",
+    "hash": "bda2a689086d7889b39b22642f0effdc",
     "packages": [
+        {
+            "name": "bitgandtter/google-api",
+            "version": "0.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bitgandtter/google-api.git",
+                "reference": "133adfe9d5412015fcf196633193424e4fc87654"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bitgandtter/google-api/zipball/133adfe9d5412015fcf196633193424e4fc87654",
+                "reference": "133adfe9d5412015fcf196633193424e4fc87654",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Yasmany Cubela Medina",
+                    "email": "yasmanycm@gmail.com"
+                }
+            ],
+            "description": "Google API library for PHP",
+            "keywords": [
+                "api",
+                "google"
+            ],
+            "time": "2013-07-26 14:28:46"
+        },
+        {
+            "name": "bitgandtter/google-bundle",
+            "version": "0.3.2",
+            "target-dir": "BIT/GoogleBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bitgandtter/GoogleBundle.git",
+                "reference": "9edeba16f75fc12cc2e26126053754e3d7e1e560"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bitgandtter/GoogleBundle/zipball/9edeba16f75fc12cc2e26126053754e3d7e1e560",
+                "reference": "9edeba16f75fc12cc2e26126053754e3d7e1e560",
+                "shasum": ""
+            },
+            "require": {
+                "bitgandtter/google-api": ">=0.6.2",
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.1",
+                "symfony/security-bundle": ">=2.1",
+                "symfony/twig-bundle": ">=2.1"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "BIT\\GoogleBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yasmany Cubela Medina",
+                    "email": "yasmanycm@gmail.com"
+                }
+            ],
+            "description": "Integrate Google Services into Symfony 2 app.",
+            "homepage": "http://bitgandtter.github.com",
+            "keywords": [
+                "contacts",
+                "google",
+                "user"
+            ],
+            "time": "2013-08-30 20:15:17"
+        },
         {
             "name": "doctrine/common",
             "version": "2.3.0",
