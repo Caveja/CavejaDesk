@@ -1,5 +1,6 @@
 !app/cache/.gitkeep
 !app/logs/.gitkeep
+.idea
 .vagrant
 /app/bootstrap.php.cache
 /app/cache/*
