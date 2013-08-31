@@ -4,6 +4,7 @@
 .vagrant
 /app/bootstrap.php.cache
 /app/cache/*
+/app/config/*.rb
 /app/config/parameters.yml
 /app/logs/*
 /bin/
