@@ -1,0 +1,4 @@
+caveja_desk:
+    resource: "@CavejaDeskBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,7 @@
+parameters:
+#    caveja_desk.example.class: Caveja\Bundle\DeskBundle\Example
+
+services:
+#    caveja_desk.example:
+#        class: %caveja_desk.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
