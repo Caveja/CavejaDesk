@@ -16,7 +16,9 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
-        "bitgandtter/google-bundle": "0.3.*"
+        "bitgandtter/google-bundle": "0.3.*",
+        "doctrine/doctrine-migrations-bundle": "@dev",
+        "friendsofsymfony/user-bundle": "~1.3"
     },
     "scripts": {
         "post-install-cmd": [
