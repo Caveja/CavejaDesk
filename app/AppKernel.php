@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new FOS\UserBundle\FOSUserBundle(),
+            new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
             new Caveja\Bundle\DeskBundle\CavejaDeskBundle(),
         );
 
