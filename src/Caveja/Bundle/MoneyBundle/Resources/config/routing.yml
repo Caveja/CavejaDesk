@@ -1,3 +1,0 @@
-caveja_money_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: CavejaMoneyBundle:Default:index }

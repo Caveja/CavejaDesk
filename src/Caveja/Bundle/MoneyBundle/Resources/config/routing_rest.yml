@@ -1,0 +1,4 @@
+accounts:
+    type:        rest
+    resource:    'Caveja\Bundle\MoneyBundle\Controller\AccountsController'
+    name_prefix: 'caveja_money_'
