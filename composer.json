@@ -54,6 +54,9 @@
         }
     },
     "require-dev": {
-        "behat/behat": "2.4.*@stable"
+        "behat/behat": "2.4.*@stable",
+        "behat/symfony2-extension": "*",
+        "behat/mink-extension": "*",
+        "behat/mink-browserkit-driver": "*"
     }
 }
