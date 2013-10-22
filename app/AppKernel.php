@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),
             new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
             new Caveja\Bundle\DeskBundle\CavejaDeskBundle(),
+            new Caveja\Bundle\MoneyBundle\CavejaMoneyBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

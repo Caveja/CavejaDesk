@@ -1,0 +1,7 @@
+parameters:
+#    caveja_money.example.class: Caveja\Bundle\MoneyBundle\Example
+
+services:
+#    caveja_money.example:
+#        class: %caveja_money.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
