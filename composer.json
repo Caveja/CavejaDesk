@@ -52,5 +52,8 @@
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
         }
+    },
+    "require-dev": {
+        "behat/behat": "2.4.*@stable"
     }
 }
