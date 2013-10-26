@@ -1,7 +1,7 @@
 caveja_money_rest:
     type: rest
     resource: "@CavejaMoneyBundle/Resources/config/routing_rest.yml"
-    prefix:   /
+    prefix:   /money
 
 caveja_desk:
     resource: "@CavejaDeskBundle/Resources/config/routing.yml"
