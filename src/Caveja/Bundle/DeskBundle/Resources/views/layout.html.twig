@@ -1,42 +1,8 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>{% block title %}{% endblock title %}</title>
-        {% block stylesheets %}
-            <link type="text/css" rel="stylesheet" media="screen" href="{{ asset('bundles/cavejadesk/bootstrap/dist/css/bootstrap.min.css') }}">
-            <link type="text/css" rel="stylesheet" media="screen" href="{{ asset('bundles/cavejadesk/css/screen.css') }}">
-        {% endblock stylesheets %}
-    </head>
-    <body>
-        {% block body %}
-            {% block navbar %}
-                <div class="navbar navbar-inverse navbar-fixed-top">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="{{ path('caveja_desk_homepage') }}">CavejaDesk</a>
-                        </div>
-                        <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a></li>
-                            </ul>
-                        </div><!--/.nav-collapse -->
-                    </div>
-                </div>
-            {% endblock navbar %}
-
-            <div id="content">
-                {% block content %}{% endblock content %}
-            </div>
-
-            {% block javascripts %}
-                <script src="//code.jquery.com/jquery.js"></script>
-                <script src="{{ asset('bundles/cavejadesk/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-            {% endblock javascripts %}
-        {% endblock body %}
-    </body>
-</html>
+{% extends 'MopaBootstrapBundle::base.html.twig' %}
+{% block title %}CavejaDesk{% endblock title %}
+{% block headline %}
+    CavejaDesk
+{% endblock headline %}
+{% block footer %}
+    © CavejaTeam 2013
+{% endblock footer %}
