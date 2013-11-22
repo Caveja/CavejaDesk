@@ -1,6 +1,9 @@
 before_commands:
-    - "composer install --prefer-source"
+    - "composer install --dev"
 
 tools:
     php_code_coverage:
         test_command: bin/phpunit -c app/
+
+filter:
+    paths: [src/*]
