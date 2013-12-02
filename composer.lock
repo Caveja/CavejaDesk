@@ -826,17 +826,17 @@
         },
         {
             "name": "friendsofsymfony/rest-bundle",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "target-dir": "FOS/RestBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "8e0b02a3ea9cbb76b2043868796659c8f61af29b"
+                "reference": "e0def4f4f3699f9629f46ca4ed3dbde250d78d96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/8e0b02a3ea9cbb76b2043868796659c8f61af29b",
-                "reference": "8e0b02a3ea9cbb76b2043868796659c8f61af29b",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/e0def4f4f3699f9629f46ca4ed3dbde250d78d96",
+                "reference": "e0def4f4f3699f9629f46ca4ed3dbde250d78d96",
                 "shasum": ""
             },
             "require": {
@@ -866,7 +866,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -898,7 +898,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2013-10-11 14:23:24"
+            "time": "2013-11-28 09:03:02"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -1020,16 +1020,16 @@
         },
         {
             "name": "jdorn/sql-formatter",
-            "version": "v1.2.9",
+            "version": "v1.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jdorn/sql-formatter.git",
-                "reference": "bd1f09133f6dbbe0713856910e58ea9480c2be58"
+                "reference": "8859d664737492d313c34796731b35eca851b362"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/bd1f09133f6dbbe0713856910e58ea9480c2be58",
-                "reference": "bd1f09133f6dbbe0713856910e58ea9480c2be58",
+                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/8859d664737492d313c34796731b35eca851b362",
+                "reference": "8859d664737492d313c34796731b35eca851b362",
                 "shasum": ""
             },
             "require": {
@@ -1066,7 +1066,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2013-04-26 18:42:52"
+            "time": "2013-11-27 22:51:13"
         },
         {
             "name": "jms/metadata",
@@ -1437,12 +1437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phiamo/MopaBootstrapBundle.git",
-                "reference": "ae07c02afbfe1934eb08823e2384874ecc6c8d67"
+                "reference": "8d9f4c46f9567b1a260c3ac85ee36299e5667ef7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phiamo/MopaBootstrapBundle/zipball/ae07c02afbfe1934eb08823e2384874ecc6c8d67",
-                "reference": "ae07c02afbfe1934eb08823e2384874ecc6c8d67",
+                "url": "https://api.github.com/repos/phiamo/MopaBootstrapBundle/zipball/8d9f4c46f9567b1a260c3ac85ee36299e5667ef7",
+                "reference": "8d9f4c46f9567b1a260c3ac85ee36299e5667ef7",
                 "shasum": ""
             },
             "require": {
@@ -1494,7 +1494,7 @@
                 "form",
                 "template"
             ],
-            "time": "2013-11-24 01:46:57"
+            "time": "2013-11-28 08:19:58"
         },
         {
             "name": "mopa/composer-bridge",
