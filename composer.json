@@ -23,7 +23,8 @@
         "friendsofsymfony/rest-bundle": "~1.0",
         "jms/serializer-bundle": "~0.9",
         "mopa/bootstrap-bundle": "3.*@dev",
-        "twbs/bootstrap": "3.0.*"
+        "twbs/bootstrap": "3.0.*",
+        "sp/bower-bundle": "@dev"
     },
     "scripts": {
         "post-install-cmd": [
