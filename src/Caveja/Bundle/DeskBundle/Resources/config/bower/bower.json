@@ -1,0 +1,6 @@
+{
+    "name": "CavejaDesk",
+    "dependencies": {
+        "angular": "1.2.*"
+    }
+}
