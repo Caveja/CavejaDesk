@@ -854,12 +854,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "37aacdae6507faad03c3df1624e7d3a6e6c1b388"
+                "reference": "ce2ffa17a642267d48b9df6c5eba94e9d773e22f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/37aacdae6507faad03c3df1624e7d3a6e6c1b388",
-                "reference": "37aacdae6507faad03c3df1624e7d3a6e6c1b388",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/ce2ffa17a642267d48b9df6c5eba94e9d773e22f",
+                "reference": "ce2ffa17a642267d48b9df6c5eba94e9d773e22f",
                 "shasum": ""
             },
             "require": {
@@ -906,7 +906,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2013-11-10 05:33:50"
+            "time": "2013-12-03 00:28:34"
         },
         {
             "name": "doctrine/orm",
@@ -1124,17 +1124,17 @@
         },
         {
             "name": "incenteev/composer-parameter-handler",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "target-dir": "Incenteev/ParameterHandler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "2310d74a751025f02221e0faf69d31440df71b73"
+                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/2310d74a751025f02221e0faf69d31440df71b73",
-                "reference": "2310d74a751025f02221e0faf69d31440df71b73",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/143272a0a09c62616a3c8011fc165a10c6b35241",
+                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241",
                 "shasum": ""
             },
             "require": {
@@ -1142,12 +1142,14 @@
                 "symfony/yaml": "~2.0"
             },
             "require-dev": {
-                "composer/composer": "*"
+                "composer/composer": "1.0.*@dev",
+                "phpspec/prophecy-phpunit": "~1.0",
+                "symfony/filesystem": "~2.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -1170,7 +1172,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2013-04-06 17:15:44"
+            "time": "2013-12-07 10:10:39"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -1591,12 +1593,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phiamo/MopaBootstrapBundle.git",
-                "reference": "8d9f4c46f9567b1a260c3ac85ee36299e5667ef7"
+                "reference": "dd4a824e643e0af1e49674baa34fe6e016695255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phiamo/MopaBootstrapBundle/zipball/8d9f4c46f9567b1a260c3ac85ee36299e5667ef7",
-                "reference": "8d9f4c46f9567b1a260c3ac85ee36299e5667ef7",
+                "url": "https://api.github.com/repos/phiamo/MopaBootstrapBundle/zipball/dd4a824e643e0af1e49674baa34fe6e016695255",
+                "reference": "dd4a824e643e0af1e49674baa34fe6e016695255",
                 "shasum": ""
             },
             "require": {
@@ -1648,7 +1650,7 @@
                 "form",
                 "template"
             ],
-            "time": "2013-11-28 08:19:58"
+            "time": "2013-12-07 18:42:01"
         },
         {
             "name": "mopa/composer-bridge",
@@ -1986,12 +1988,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spea/SpBowerBundle.git",
-                "reference": "2076c55c1615534c845a1707048b731893e15f80"
+                "reference": "d712c4e3e2f3912128df1ff075f4d8f7969eed59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spea/SpBowerBundle/zipball/2076c55c1615534c845a1707048b731893e15f80",
-                "reference": "2076c55c1615534c845a1707048b731893e15f80",
+                "url": "https://api.github.com/repos/Spea/SpBowerBundle/zipball/d712c4e3e2f3912128df1ff075f4d8f7969eed59",
+                "reference": "d712c4e3e2f3912128df1ff075f4d8f7969eed59",
                 "shasum": ""
             },
             "require": {
@@ -2039,20 +2041,20 @@
                 "bower manager",
                 "dependencies"
             ],
-            "time": "2013-11-27 15:04:57"
+            "time": "2013-12-07 17:48:35"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.0.2",
+            "version": "v5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379"
+                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/f3917ecef35a4e4d98b303eb9fee463bc983f379",
-                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
+                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
                 "shasum": ""
             },
             "require": {
@@ -2088,7 +2090,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2013-08-30 12:35:21"
+            "time": "2013-12-03 13:33:24"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -2424,16 +2426,16 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "3887f540b978d593f433bfef15888bc2d103de72"
+                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/3887f540b978d593f433bfef15888bc2d103de72",
-                "reference": "3887f540b978d593f433bfef15888bc2d103de72",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6d03173a1aad98e75f7d33e65b411c519176c59a",
+                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a",
                 "shasum": ""
             },
             "type": "library",
@@ -2462,7 +2464,7 @@
                 "bootstrap",
                 "css"
             ],
-            "time": "2013-11-06 21:19:18"
+            "time": "2013-12-05 16:09:10"
         },
         {
             "name": "twig/extensions",
@@ -2513,16 +2515,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.14.2",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64"
+                "reference": "85e4ff98000157ff753d934b9f13659a953f5666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/ca445842fcea4f844d68203ffa2d00f5e3cdea64",
-                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/85e4ff98000157ff753d934b9f13659a953f5666",
+                "reference": "85e4ff98000157ff753d934b9f13659a953f5666",
                 "shasum": ""
             },
             "require": {
@@ -2531,7 +2533,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -2558,20 +2560,20 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-10-30 08:20:53"
+            "time": "2013-12-06 07:47:10"
         },
         {
             "name": "willdurand/negotiation",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "d5d080d5405e3e0895038b5b578458884cdf8af6"
+                "reference": "366e31cfc247946dfe8c622bc00041964e9b294f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/d5d080d5405e3e0895038b5b578458884cdf8af6",
-                "reference": "d5d080d5405e3e0895038b5b578458884cdf8af6",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/366e31cfc247946dfe8c622bc00041964e9b294f",
+                "reference": "366e31cfc247946dfe8c622bc00041964e9b294f",
                 "shasum": ""
             },
             "require": {
@@ -2608,7 +2610,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2013-11-21 10:29:12"
+            "time": "2013-11-26 14:42:16"
         }
     ],
     "packages-dev": [
