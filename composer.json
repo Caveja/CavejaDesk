@@ -26,7 +26,10 @@
         "twbs/bootstrap": "3.0.*",
         "doctrine/doctrine-fixtures-bundle": "~2.2",
         "caveja/toshl-client": "@dev",
-        "caveja/toshl-bundle": "@dev"
+        "caveja/toshl-bundle": "@dev",
+        "marc-mabe/php-enum": "@dev",
+        "mathiasverraes/money": "@dev",
+        "nicolopignatelli/valueobjects": "@dev"
     },
     "scripts": {
         "post-install-cmd": [
