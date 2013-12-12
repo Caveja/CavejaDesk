@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "eb62c7e46ecf126b7f5f028cb09bde84",
+    "hash": "912b7a2ed53acbc1de1c9570878dc424",
     "packages": [
         {
             "name": "bitgandtter/google-api",
@@ -100,6 +100,46 @@
                 "user"
             ],
             "time": "2013-11-05 19:16:25"
+        },
+        {
+            "name": "caveja/toshl-bundle",
+            "version": "dev-master",
+            "target-dir": "Caveja/Bundle/ToshlBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Caveja/CavejaToshlBundle.git",
+                "reference": "8abc40fbeac16d0c25932ebe4e8ec45d38eb0093"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Caveja/CavejaToshlBundle/zipball/8abc40fbeac16d0c25932ebe4e8ec45d38eb0093",
+                "reference": "8abc40fbeac16d0c25932ebe4e8ec45d38eb0093",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/framework-bundle": "~2.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Caveja\\Bundle\\ToshlBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Davide Bellettini",
+                    "email": "davide.bellettini@gmail.com"
+                }
+            ],
+            "description": "Toshl client integration for Symfony 2.3 and later",
+            "time": "2013-12-12 11:25:54"
         },
         {
             "name": "doctrine/annotations",
@@ -3297,6 +3337,7 @@
         "doctrine/migrations": 20,
         "mopa/bootstrap-bundle": 20,
         "sp/bower-bundle": 20,
+        "caveja/toshl-bundle": 20,
         "behat/behat": 0
     },
     "platform": {
