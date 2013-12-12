@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
             new Caveja\Bundle\DeskBundle\CavejaDeskBundle(),
             new Caveja\Bundle\MoneyBundle\CavejaMoneyBundle(),
+            new Caveja\Bundle\ToshlBundle\CavejaToshlBundle(),
             new Sp\BowerBundle\SpBowerBundle(),
         );
 
