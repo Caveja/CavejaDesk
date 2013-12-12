@@ -24,7 +24,6 @@
         "jms/serializer-bundle": "~0.9",
         "mopa/bootstrap-bundle": "3.*@dev",
         "twbs/bootstrap": "3.0.*",
-        "sp/bower-bundle": "@dev",
         "doctrine/doctrine-fixtures-bundle": "~2.2",
         "caveja/toshl-client": "@dev",
         "caveja/toshl-bundle": "@dev"

@@ -84,6 +84,3 @@ fos_rest:
         default_format: json
         include_format: false
 
-sp_bower:
-    bundles:
-        CavejaDeskBundle: ~

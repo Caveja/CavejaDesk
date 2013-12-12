@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "44166e00759db5864ba5c5f99757e94c",
+    "hash": "be580e20907ed82b2dd998f1f4a3decd",
     "packages": [
         {
             "name": "bitgandtter/google-api",
@@ -108,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Caveja/CavejaToshlBundle.git",
-                "reference": "26e7cb4e02b1c3e2e964388b89b5754a7a4e21c0"
+                "reference": "8b1f3f4ed623f1bf261e1e87ba7302e12f35e62e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Caveja/CavejaToshlBundle/zipball/26e7cb4e02b1c3e2e964388b89b5754a7a4e21c0",
-                "reference": "26e7cb4e02b1c3e2e964388b89b5754a7a4e21c0",
+                "url": "https://api.github.com/repos/Caveja/CavejaToshlBundle/zipball/8b1f3f4ed623f1bf261e1e87ba7302e12f35e62e",
+                "reference": "8b1f3f4ed623f1bf261e1e87ba7302e12f35e62e",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 }
             ],
             "description": "Toshl client integration for Symfony 2.3 and later",
-            "time": "2013-12-12 11:28:16"
+            "time": "2013-12-12 13:40:13"
         },
         {
             "name": "caveja/toshl-client",
@@ -2120,68 +2120,6 @@
             "time": "2013-08-21 18:09:35"
         },
         {
-            "name": "sp/bower-bundle",
-            "version": "dev-master",
-            "target-dir": "Sp/BowerBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Spea/SpBowerBundle.git",
-                "reference": "d712c4e3e2f3912128df1ff075f4d8f7969eed59"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Spea/SpBowerBundle/zipball/d712c4e3e2f3912128df1ff075f4d8f7969eed59",
-                "reference": "d712c4e3e2f3912128df1ff075f4d8f7969eed59",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/cache": "~1.0",
-                "doctrine/collections": "1.*",
-                "php": ">=5.3.3",
-                "symfony/assetic-bundle": "~2.1",
-                "symfony/framework-bundle": "~2.1",
-                "symfony/process": "~2.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "symfony/console": "~2.1"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.9-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Sp\\BowerBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Martin Parsiegla",
-                    "email": "martin.parsiegla@gmail.com",
-                    "homepage": "http://speanet.info"
-                },
-                {
-                    "name": "Community contributions",
-                    "homepage": "https://github.com/Spea/SpBowerBundle/contributors"
-                }
-            ],
-            "description": "Handle asset dependencies with bower",
-            "keywords": [
-                "asset",
-                "bower",
-                "bower manager",
-                "dependencies"
-            ],
-            "time": "2013-12-07 17:48:35"
-        },
-        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.0.3",
             "source": {
@@ -3476,7 +3414,6 @@
         "doctrine/doctrine-migrations-bundle": 20,
         "doctrine/migrations": 20,
         "mopa/bootstrap-bundle": 20,
-        "sp/bower-bundle": 20,
         "caveja/toshl-client": 20,
         "caveja/toshl-bundle": 20,
         "behat/behat": 0

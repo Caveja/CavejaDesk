@@ -25,7 +25,6 @@ class AppKernel extends Kernel
             new Caveja\Bundle\DeskBundle\CavejaDeskBundle(),
             new Caveja\Bundle\MoneyBundle\CavejaMoneyBundle(),
             new Caveja\Bundle\ToshlBundle\CavejaToshlBundle(),
-            new Sp\BowerBundle\SpBowerBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
