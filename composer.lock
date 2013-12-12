@@ -108,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Caveja/CavejaToshlBundle.git",
-                "reference": "8b1f3f4ed623f1bf261e1e87ba7302e12f35e62e"
+                "reference": "29de0d6951dcf1259309b2b21e15b979a7667772"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Caveja/CavejaToshlBundle/zipball/8b1f3f4ed623f1bf261e1e87ba7302e12f35e62e",
-                "reference": "8b1f3f4ed623f1bf261e1e87ba7302e12f35e62e",
+                "url": "https://api.github.com/repos/Caveja/CavejaToshlBundle/zipball/29de0d6951dcf1259309b2b21e15b979a7667772",
+                "reference": "29de0d6951dcf1259309b2b21e15b979a7667772",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 }
             ],
             "description": "Toshl client integration for Symfony 2.3 and later",
-            "time": "2013-12-12 13:40:13"
+            "time": "2013-12-12 15:04:50"
         },
         {
             "name": "caveja/toshl-client",
