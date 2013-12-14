@@ -29,7 +29,7 @@
         "caveja/toshl-bundle": "@dev",
         "marc-mabe/php-enum": "@dev",
         "mathiasverraes/money": "@dev",
-        "nicolopignatelli/valueobjects": "@dev"
+        "nicolopignatelli/valueobjects": "~1.0"
     },
     "scripts": {
         "post-install-cmd": [

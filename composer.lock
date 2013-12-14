@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b03fb05c06611d8dff6d6017ccd31944",
+    "hash": "19d297d8dd405b77aa51aa1f2a77dc9d",
     "packages": [
         {
             "name": "bitgandtter/google-api",
@@ -108,16 +108,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Caveja/CavejaToshlBundle.git",
-                "reference": "29de0d6951dcf1259309b2b21e15b979a7667772"
+                "reference": "42d7d7659d2aca9cbb21ecff5b4145f6cbdfe335"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Caveja/CavejaToshlBundle/zipball/29de0d6951dcf1259309b2b21e15b979a7667772",
-                "reference": "29de0d6951dcf1259309b2b21e15b979a7667772",
+                "url": "https://api.github.com/repos/Caveja/CavejaToshlBundle/zipball/42d7d7659d2aca9cbb21ecff5b4145f6cbdfe335",
+                "reference": "42d7d7659d2aca9cbb21ecff5b4145f6cbdfe335",
                 "shasum": ""
             },
             "require": {
                 "caveja/toshl-client": "@dev",
+                "marc-mabe/php-enum": "@dev",
+                "mathiasverraes/money": "@dev",
+                "nicolopignatelli/valueobjects": "@dev",
                 "symfony/framework-bundle": "~2.3"
             },
             "require-dev": {
@@ -140,7 +143,7 @@
                 }
             ],
             "description": "Toshl client integration for Symfony 2.3 and later",
-            "time": "2013-12-12 15:04:50"
+            "time": "2013-12-12 16:07:47"
         },
         {
             "name": "caveja/toshl-client",
@@ -1954,16 +1957,16 @@
         },
         {
             "name": "nicolopignatelli/valueobjects",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolopignatelli/valueobjects.git",
-                "reference": "0582b056af9e18ebd29b30c73ebfedf88f7b6a65"
+                "reference": "fcf7de8667b639b9aa21c0c74a45d25bceb2768e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolopignatelli/valueobjects/zipball/0582b056af9e18ebd29b30c73ebfedf88f7b6a65",
-                "reference": "0582b056af9e18ebd29b30c73ebfedf88f7b6a65",
+                "url": "https://api.github.com/repos/nicolopignatelli/valueobjects/zipball/fcf7de8667b639b9aa21c0c74a45d25bceb2768e",
+                "reference": "fcf7de8667b639b9aa21c0c74a45d25bceb2768e",
                 "shasum": ""
             },
             "require": {
@@ -1992,7 +1995,7 @@
                 }
             ],
             "description": "A PHP library/collection of classes aimed to help developers with domain driven development and the use of immutable objects.",
-            "time": "2013-12-06 18:34:06"
+            "time": "2013-12-14 18:49:09"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -3631,7 +3634,6 @@
         "caveja/toshl-bundle": 20,
         "marc-mabe/php-enum": 20,
         "mathiasverraes/money": 20,
-        "nicolopignatelli/valueobjects": 20,
         "behat/behat": 0
     },
     "platform": {
