@@ -84,3 +84,6 @@ fos_rest:
         default_format: json
         include_format: false
 
+caveja_toshl:
+    api:
+        client_id: %toshl_client_id%
