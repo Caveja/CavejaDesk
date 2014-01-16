@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('CavejaDeskBundle:Default:index.html.twig', []);
+        return $this->redirect($this->generateUrl('caveja_money_homepage'));
     }
 }
