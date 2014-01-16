@@ -48,6 +48,27 @@ class AccountsController extends FOSRestController
         return $this->handleView($view);
     }
 
+    public function postAccountAction(Request $request, $id)
+    {
+        $repo = $this->getAccountRepository();
+
+        $account = $repo->find($id);
+
+        if (!$account instanceof Account) {
+            throw new NotFoundHttpException('Account not found');
+        }
+
+        $om = $this->getAccountObjectManager();
+
+        $account->setName($request->request->get('name'));
+        $account = $om->merge($account);
+        $om->flush();
+
+        $view = $this->view($account, 200);
+
+        return $this->handleView($view);
+    }
+
     /**
      * @return \Doctrine\Common\Persistence\ObjectManager|null|object
      */
