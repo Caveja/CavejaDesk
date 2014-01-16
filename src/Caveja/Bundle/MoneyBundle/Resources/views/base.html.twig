@@ -1,8 +1,17 @@
 {% extends '::base.html.twig' %}
 
+{% block html_tag %}
+<html ng-app="moneyApp">
+{% endblock html_tag %}
+
 {% block head_script %}
     {{ parent() }}
-    <script type="text/javascript" src="{{ asset('bundles/cavejamoney/js/account.js') }}"></script>
+    <script type="text/javascript">
+        var siteRoot = '{{ path('caveja_desk_homepage') }}';
+    </script>
+    <script type="text/javascript" src="{{ asset('bundles/cavejamoney/js/services.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/cavejamoney/js/controllers.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/cavejamoney/js/app.js') }}"></script>
 {% endblock head_script %}
 
 {% block head_style %}
@@ -16,7 +25,7 @@
 
 {% block content_sidebar %}
     <h2>Accounts</h2>
-    <div ng-controller="AccountCtrl" class="sidebar-box">
+    <div ng-controller="AccountListCtrl" class="sidebar-box">
         <ul>
             <li ng-repeat="account in accounts">
                 {% verbatim %}
