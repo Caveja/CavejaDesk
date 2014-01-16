@@ -35,15 +35,22 @@ class AccountsControllerTest extends WebTestCase
         $json = $this->getAccount($client, $id);
     }
 
-    public function testNotFound()
+    public function testDelete()
     {
         $client = static::createClient();
 
-        $client->request('GET', '/money/accounts/2174523');
+        $id = $this->createAccount($client, $name = 'foobar' . mt_rand());
+
+        $client->request('DELETE', '/money/accounts/'.$id);
         $response = $client->getResponse();
 
-        $this->assertContentTypeIsJSON($response);
-        $this->assertTrue($response->isNotFound(), 'Response should be "not found"');
+        $this->assertEquals(201, $response->getStatusCode(), 'Status code should match');
+        $this->assertAccountNotFound($client, $id);
+    }
+
+    public function testNotFound()
+    {
+        $this->assertAccountNotFound(static::createClient(), 21745233);
     }
 
     /**
@@ -96,5 +103,18 @@ class AccountsControllerTest extends WebTestCase
         $this->assertEquals($id, $json->id, 'ID should match');
 
         return $json;
+    }
+
+    /**
+     * @param $client
+     * @param $id
+     */
+    private function assertAccountNotFound($client, $id)
+    {
+        $client->request('GET', '/money/accounts/' . $id);
+        $response = $client->getResponse();
+
+        $this->assertContentTypeIsJSON($response);
+        $this->assertTrue($response->isNotFound(), 'Response should be "not found"');
     }
 }

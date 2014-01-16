@@ -54,6 +54,19 @@ class AccountsController extends FOSRestController
         return $this->handleView($view);
     }
 
+    public function deleteAccountAction($id)
+    {
+        $account = $this->findAccount($id);
+
+        $om = $this->getAccountObjectManager();
+        $om->remove($account);
+        $om->flush();
+
+        $view = $this->routeRedirectView('caveja_money_get_accounts');
+
+        return $this->handleView($view);
+    }
+
     /**
      * @return \Doctrine\Common\Persistence\ObjectManager|null|object
      */
