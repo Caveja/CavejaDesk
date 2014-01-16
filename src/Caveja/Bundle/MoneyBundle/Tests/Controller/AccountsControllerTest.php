@@ -35,6 +35,17 @@ class AccountsControllerTest extends WebTestCase
         $json = $this->getAccount($client, $id);
     }
 
+    public function testNotFound()
+    {
+        $client = static::createClient();
+
+        $client->request('GET', '/money/accounts/2174523');
+        $response = $client->getResponse();
+
+        $this->assertContentTypeIsJSON($response);
+        $this->assertTrue($response->isNotFound(), 'Response should be "not found"');
+    }
+
     /**
      * @param $response
      */
