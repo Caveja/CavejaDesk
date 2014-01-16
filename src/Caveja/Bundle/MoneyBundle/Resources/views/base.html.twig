@@ -5,9 +5,18 @@
     <script type="text/javascript" src="{{ asset('bundles/cavejamoney/js/account.js') }}"></script>
 {% endblock head_script %}
 
+{% block head_style %}
+    {{ parent() }}
+    {% stylesheets
+    '@CavejaMoneyBundle/Resources/public/less/screen.less'
+    %}
+        <link href="{{ asset_url }}" type="text/css" rel="stylesheet" media="screen" />
+    {% endstylesheets %}
+{% endblock head_style %}
+
 {% block content_sidebar %}
     <h2>Accounts</h2>
-    <div ng-controller="AccountCtrl">
+    <div ng-controller="AccountCtrl" class="sidebar-box">
         <ul>
             <li ng-repeat="account in accounts">
                 {% verbatim %}
