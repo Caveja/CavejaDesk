@@ -5,6 +5,7 @@ namespace Caveja\Bundle\MoneyBundle\Controller;
 use Caveja\Bundle\MoneyBundle\Entity\Account;
 use FOS\RestBundle\Controller\FOSRestController;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class AccountsController extends FOSRestController
 {
@@ -28,6 +29,21 @@ class AccountsController extends FOSRestController
     public function getAccountsAction()
     {
         $view = $this->view($this->getAccountRepository()->findAll(), 200);
+
+        return $this->handleView($view);
+    }
+
+    public function getAccountAction($id)
+    {
+        $repo = $this->getAccountRepository();
+
+        $account = $repo->find($id);
+
+        if (!$account instanceof Account) {
+            throw new NotFoundHttpException('Account not found');
+        }
+
+        $view = $this->view($account, 200);
 
         return $this->handleView($view);
     }

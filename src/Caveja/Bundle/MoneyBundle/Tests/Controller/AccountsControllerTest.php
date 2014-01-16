@@ -32,6 +32,29 @@ class AccountsControllerTest extends WebTestCase
         $this->assertGreaterThanOrEqual(1, count($json), 'At least one Account should be present');
     }
 
+    public function testGetSingle()
+    {
+        $client = static::createClient();
+        $client->request('POST', '/money/accounts', ['name' => $name = '' . mt_rand()]);
+        $response = $client->getResponse();
+
+        $this->assertContentTypeIsJSON($response);
+        $json = json_decode($response->getContent());
+
+        $id = $json->id;
+        $resourceUri = '/money/accounts/' . $id;
+
+        $client->request('GET', $resourceUri);
+        $response = $client->getResponse();
+
+        $this->assertTrue($response->isSuccessful(), 'GET response should be successful');
+        $this->assertContentTypeIsJSON($response);
+        $json = json_decode($response->getContent());
+
+        $this->assertSame($id, $json->id, 'ID should match');
+        $this->assertSame($name, $json->name, 'Name should match');
+    }
+
     /**
      * @param $response
      */
