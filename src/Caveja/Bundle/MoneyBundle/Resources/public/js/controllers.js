@@ -1,5 +1,7 @@
-var moneyControllers = angular.module('moneyControllers', ['moneyServices']);
+(function() {
+    var moneyControllers = angular.module('moneyControllers', ['moneyServices']);
 
-moneyControllers.controller('AccountListCtrl', ['$scope', 'Account', function($scope, Account) {
-    $scope.accounts = Account.query();
-}]);
+    moneyControllers.controller('AccountListCtrl', ['$scope', 'Account', function($scope, Account) {
+        $scope.accounts = Account.query();
+    }]);
+})();
