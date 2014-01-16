@@ -1,0 +1,19 @@
+{% extends '::base.html.twig' %}
+
+{% block head_script %}
+    {{ parent() }}
+    <script type="text/javascript" src="{{ asset('bundles/cavejamoney/js/account.js') }}"></script>
+{% endblock head_script %}
+
+{% block content_sidebar %}
+    <h2>Accounts</h2>
+    <div ng-controller="AccountCtrl">
+        <ul>
+            <li ng-repeat="account in accounts">
+                {% verbatim %}
+                    {{ account.name }}
+                {% endverbatim %}
+            </li>
+        </ul>
+    </div>
+{% endblock content_sidebar %}

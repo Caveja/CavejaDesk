@@ -1,8 +1,19 @@
 {% extends 'MopaBootstrapBundle::base.html.twig' %}
+{% block html_tag %}
+<html ng-app>
+{% endblock html_tag %}
+
 {% block title %}CavejaDesk{% endblock title %}
+
+{% block head_script %}
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+{% endblock head_script %}
+
 {% block headline %}
     CavejaDesk
 {% endblock headline %}
+
 {% block footer %}
-    © CavejaTeam 2013
+    © CavejaTeam 2013 - {{ "now"|date('Y') }}
 {% endblock footer %}
