@@ -1,0 +1,7 @@
+parameters:
+#    caveja_fitness.example.class: Caveja\Bundle\FitnessBundle\Example
+
+services:
+#    caveja_fitness.example:
+#        class: %caveja_fitness.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

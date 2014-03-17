@@ -25,6 +25,7 @@ class AppKernel extends Kernel
             new Caveja\Bundle\DeskBundle\CavejaDeskBundle(),
             new Caveja\Bundle\MoneyBundle\CavejaMoneyBundle(),
             new Caveja\Bundle\ToshlBundle\CavejaToshlBundle(),
+            new Caveja\Bundle\FitnessBundle\CavejaFitnessBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

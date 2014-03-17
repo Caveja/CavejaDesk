@@ -1,0 +1,3 @@
+caveja_fitness_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CavejaFitnessBundle:Default:index }

@@ -1,3 +1,7 @@
+caveja_fitness:
+    resource: "@CavejaFitnessBundle/Resources/config/routing.yml"
+    prefix:   /
+
 caveja_money:
     resource: "@CavejaMoneyBundle/Resources/config/routing.yml"
     prefix:   /money
